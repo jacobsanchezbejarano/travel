@@ -96,7 +96,7 @@ export function loadContentPlace(data){
 
 export function create_placesCard(base64_data){
     let data = JSON.parse(b64_to_utf8( base64_data ));
-    console.log(data);
+    //console.log(data);
     let photo = "";
     if(data.photo != undefined || data.photo == ""){
         photo = data.photo
@@ -135,7 +135,7 @@ export function create_placesCard(base64_data){
             `;
             x++;
         }
-        console.log(x);
+        //console.log(x);
         while (x < 5){
             html_3+= `
             <span class="fa fa-star"></span>
@@ -351,7 +351,7 @@ function create_recommended(data){
 
 function render_mostVisited(data){
 
-    console.log(data);
+    //console.log(data);
     let len = data.length;
 
     let array_of_keys = randomPlaces(3,len);
@@ -371,7 +371,7 @@ function render_mostVisited(data){
 
 function render_bestPlaces(data){
 
-    console.log(data);
+    //console.log(data);
     let len = data.length;
 
     let array_of_keys = randomPlaces(4,len);
