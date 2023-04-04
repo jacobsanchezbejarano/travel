@@ -1,0 +1,504 @@
+@charset "UTF-8"; /* not necessary */
+/*
+1a1b41
+baff29
+f3e8ee
+837569
+*/
+/* Colors https://coolors.co/0c1d47-d10812-7e7f9a-dee5e5-f4f7f5 */
+/*
+/*
+
+
+
+
+Headings
+font-family: 'Tilt Warp', cursive;
+
+Normal
+font-family: 'Sarabun', sans-serif;
+
+*/
+
+.primary {
+    background-color: #1a1b41;
+    color: #f4f7f5;
+}
+.secondary {
+    background-color: #baff29;
+    color: #1a1b41;
+}
+.accent1 {
+    background-color: #f3e8ee;
+    color: #1a1b41;
+}
+.accent2 {
+    background-color: #837569;
+	color: #f4f7f5;
+}
+
+
+.colored {
+	background-color: #7e7f9a;
+	color: #f4f7f5;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+}
+body {
+	font-size: 16px;
+	font-family: 'Sarabun', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Tilt Warp', cursive;
+    color: #271f30;
+}
+
+.first { 
+	width: 100%;
+}
+header,
+footer {
+	background-color: #baff29;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+    color: #271f30;
+	width: 100%;
+}
+
+main {
+	background-color: #efeded;
+}
+
+header,
+nav,
+main,
+footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: minmax(50px, 100px) 4fr 3fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+	margin: 0 auto;
+
+}
+
+.banner-main {
+	position: relative;
+}
+
+figure {
+	margin: 1rem 20px;
+}
+
+.call-to-action {
+	position: absolute;
+	bottom: 1.2rem;
+	right: 25px;
+	background-color: #baff29;
+	color: #271f30;
+	border: none;
+	padding: 10px;	
+	font-weight: 600;
+}
+
+.call-to-action:hover {
+	background-color: #1a1b41;
+	color: #f4f7f5;
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+
+.logo {
+	max-width: 100px;
+}
+
+p {
+	padding: .5rem;
+}
+
+nav {
+	background-color: #baff29;
+	color: #271f30;
+	text-align: center;
+}
+
+nav {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+nav div {
+	flex: 1 1 auto;
+}
+
+
+nav a {
+	display: block;
+	color: #271f30;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	font-size: 0.9rem;
+}
+
+header .second a {
+    padding: 0 5px;
+    margin: auto;
+}
+
+header .second a img {
+    width: 75%;
+    min-width: 1.5rem;
+	max-width: 2rem;
+    margin: auto;
+}
+
+.header-title {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.second {
+	grid-column: 3/4;
+}
+
+.menu {
+	width: 100%;
+	grid-column: 1/5;
+}
+
+header div nav ul {
+    display: none;
+}
+
+header div nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#primaryNav li a {
+    font-size: 1.1rem;
+	font-weight: 500;
+}
+
+ul #primaryNav {
+    margin: 0 auto;
+    width: 100%;
+}
+
+header div nav ul.open {
+    display: block;
+	width: 100%;
+}
+
+nav a:hover {
+	background-color: #1a1b41;
+	color: #f4f7f5;
+}
+
+#hamburguerBtn {
+	background-color: transparent;
+	padding: 10px;
+	border: none;
+	font-size: 24px;
+}
+
+#hamburguerBtn span:nth-child(1) {
+    display: block
+}
+
+#hamburguerBtn span:nth-child(2) {
+    display: none
+}
+
+#hamburguerBtn.open span:nth-child(1) {
+    display: none
+}
+
+#hamburguerBtn.open span:nth-child(2) {
+    display: block
+}
+
+
+main {
+	align-items: center;
+	justify-content: center;
+	font-size: 0.85rem;
+    padding: 0.5rem;
+}
+
+main .submenu {
+	margin: 1rem;
+	border: 1px solid #bbb;
+	padding: 1rem;
+	background-color: #eee;
+}
+
+.submenu ul {
+	margin-left: 2rem;
+}
+
+main picture {
+	display: none;
+	margin: 1rem;
+}
+
+main article {
+	margin: 1rem;
+}
+
+footer {
+	display: flex;
+	padding: 1rem;
+	justify-content: space-between;
+	font-weight: 700;
+    margin-top: 1rem;
+}
+
+table {
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+}
+tr, td {
+    padding: 10px;
+} 
+
+td {
+    border: solid 1px #7e7f9a;
+}
+
+table img {
+    max-width: 200px;
+}
+
+main h1, h2, h3, h4, h5, p, li {
+    padding: 10px;
+}
+
+li {
+    margin-left: 40px;
+}
+
+footer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.logo-footer {
+	max-width: 150px;
+}
+
+img {
+	width: 100%;
+}
+
+.weather {
+	display: none;
+}
+
+#new-flavors-cards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.card-new-flavors {	
+	min-width: 40%;
+	margin-right: auto;
+	max-width: 150px;
+}
+
+.forecast p {
+	display: inline-block;
+	width: 50%;
+}
+
+#weather-icon {
+	max-width: 150px;
+}
+
+.weater-div {
+	display: flex;
+}
+
+.weater-div > * {
+	width: 100%;
+	font-size: 28px;
+}
+
+.weater-div picture {
+	margin: 0;
+}
+
+#temperature {
+	vertical-align: middle;
+}
+
+
+form {
+    width: 100%;
+    min-width: 16rem;
+}
+
+form .fs {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 17rem;
+    
+}
+
+form input[type=button] {
+    border: none;
+    background-color: #1a1b41;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 5rem 5%;
+    width: 91%;
+    min-width: 17rem;
+}
+
+
+
+form .fs label {
+    padding: .75rem 0;
+    display: block;
+    
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.info {
+    display: block;
+}
+
+.info input {
+    display: block;
+    width: 15rem;
+    border-radius: 5px;
+}
+
+.info input, textarea {
+    padding: 12px;
+}
+
+.top {
+    display: block;
+}
+
+
+textarea {
+    width: 15rem;
+    height: 6rem;
+    display: block;
+    border-radius: 5px;
+}
+
+.info input:required {
+    border: #1a1b41 solid 2px;
+}
+
+.info input:required:valid {
+    border: #baff29 solid 2px;
+}
+
+
+form div {
+	margin-bottom: 10px;
+}
+
+div select {
+	padding: 7px;
+	width: 15rem;
+}
+
+#drinks-made-div * {
+	text-align: center;
+}
+
+.active a {
+	background-color: #1a1b41;
+	color: #f4f7f5;
+}
+
+
+.why-visit {
+	background-color: #635950;
+	color: #f4f7f5;
+}
+
+.why-visit h2, .why-visit h1 {
+	color: #fff;
+}
+
+.recommended {
+	display: none;
+}
+
+article a {
+	text-decoration: none;
+}
+
+#btnSubmit {
+	background-color: #1a1b41;
+	color: #f3e8ee;
+	padding: 10px;
+	border-radius: 15px;
+	margin-top: 5px;
+}
+
+#btnSubmit:hover {
+	background-color: #baff29;
+	color: #1a1b41;
+	border: 1px solid #bfcda1;
+	font-weight: 600;
+}
+
+.checked {
+	color: orange;
+}
+
+.aditional-info {
+	padding: 10px;
+}
+
+.reviews_div {
+	grid-row: 1/2;
+	grid-column: 1/2;
+}
+
+.stars {
+	padding: 10px;
+}
+
+.reviews {
+	display: flex;
+	flex-direction: row;
+}

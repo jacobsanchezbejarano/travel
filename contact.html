@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300&family=Tilt+Warp&display=swap" rel="stylesheet">
+    <script src="js/index.mjs" type="module"></script>
+    <title>Travel</title>
+</head>
+<body>
+
+    <header></header>
+
+    <main>
+
+        <div class="view-contact">
+
+        </div>
+
+        <div class="form-contact">
+            <h1>Contact</h1>
+            <form action="thankyou.html" method="get">
+                <fieldset class="fs top">
+                    <legend>Contact us</legend>
+                    <label class="info">First name*
+                        <input type="text" id="firstname" name="firstname" required>
+                    </label>
+                    <label class="info">Last name*
+                        <input type="text" id="lastname" name="lastname" required>
+                    </label>
+                    <label class="info">Email address*
+                        <input type="text" id="email" name="email" placeholder="example@exa.ex" required>
+                    </label>
+                    <label class="info">Phone number*
+                        <input type="tel" id="phone" name="phone" placeholder="15646546444" required>
+                    </label>
+
+                    <div id="selects"></div>
+
+                    <label>Comments
+                        <textarea name="comments"></textarea>
+                    </label>
+                    
+                    <input id="btnSubmit" type="submit" value="Send">
+                </fieldset>
+
+
+
+            </form>
+        </div>
+    </main>
+
+    <footer></footer>
+    <script src="js/lazyloading.js" defer="defer"></script>
+</body>
+</html>
