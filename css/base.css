@@ -104,6 +104,10 @@ figure {
 	margin: 1rem 20px;
 }
 
+figcaption {
+	color: #000;
+}
+
 .call-to-action {
 	position: absolute;
 	bottom: 1.2rem;
