@@ -3,7 +3,7 @@ import {getParam, getLocalStorage,setLocalStorage} from "./utils.mjs";
 
 loadTemplates();
 
-if(window.location.href.search('index.html') > -1){
+if(window.location.href.search('index.html') > -1 || window.location.href.search('/') > -1){
     loadContentHome();
 }
 
